@@ -23,7 +23,6 @@ nav{
 header .logo{
     width: 60px;
 }
-header .menu{}
 header .menu > ul > li{
     list-style: none;
     display: inline-block;
@@ -40,7 +39,67 @@ header .menu > ul > li:hover > a{
     background-color: lightgray;
     color: rgb(29, 29, 29);
 }
-
+main{
+    padding: 40px 0px;
+    background: radial-gradient(rgba(23, 23, 255, 0.397),rgba(255, 0, 0, 0.411), pink );
+}
+main .right-side{
+    width: 60%;
+}
+.about-article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .right-side article img{
+    max-width: 200px;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 85% 100%, 13% 100%, 0% 60%, 10% 20%);
+}
+main article h3{
+    margin: 10px 0px;
+}
 main video{
     width: 300px;
+}
+.composition{
+    padding: 50px 0px;
+}
+.Headling{
+    text-align: center;
+    margin: 5px 0px;
+}
+.intro ul{
+    margin-top: 30px;
+}
+.intro ul li img{
+    max-width: 100px;
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+}
+table, td, th{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px 15px;
+    border-collapse: collapse;
+}
+th{
+    background-color: gray;
+}
+td{
+    background-color: rgb(216, 216, 216);
+}
+form div{
+    padding: 10px 0px;
+}
+fieldset{
+    padding:7px 20px;
+}
+fieldset .pitha{
+    margin: 10px 0px;
+}
+footer{
+    background-color: lightslategray;
+    text-align: center;
+    padding: 20px 0px;
+}
+footer p{
+    color: lightcyan;
 }
